@@ -1,0 +1,10 @@
+h1 {
+    background: blue;
+}
+
+p{
+    background: #fffd6a;
+    color: blue;
+    font-size: 20px;
+    border-radius: 10px
+}
