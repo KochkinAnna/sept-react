@@ -3,14 +3,15 @@
 // https://rickandmortyapi.com/api/character
 // Створити 6 персонажів
 
+
 const Rickandmorty = ({rickandmorty}) => {
     const {id,name,status,species,image}=rickandmorty;
     return (
-        <div>
-            <div>id:{id}</div>
-            <div>name:{name}</div>
-            <div>status:{status}</div>
-            <div>species:{species}</div>
+        <div className={'block'}>
+            <h4>id: {id}</h4>
+            <h4>name: {name}</h4>
+            <h4>status: {status}</h4>
+            <h4>species: {species}</h4>
             <img src={image} alt={name}/>
         </div>
     );

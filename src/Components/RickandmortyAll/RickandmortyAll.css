@@ -1,0 +1,35 @@
+.wrap {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+.allchar {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    /*align-items: center;*/
+    /*flex-direction: row;*/
+
+}
+
+.allcharacters {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    /*align-items: center;*/
+    flex-direction: row;
+
+}
+
+

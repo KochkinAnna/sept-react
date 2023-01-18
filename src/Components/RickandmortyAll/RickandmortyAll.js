@@ -47,7 +47,7 @@ const RickandmortyAll = () => {
     ]
 
     return (
-        <div>
+        <div className={'allcharacters'}>
             {
                 rickandmortyAll.map(rickandmorty => <Rickandmorty
                     key={rickandmorty.id}

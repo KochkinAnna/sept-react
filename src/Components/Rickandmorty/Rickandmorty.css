@@ -1,0 +1,14 @@
+.block {
+    width: 350px;
+    height: 600px;
+    background: #9d9999;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+img {
+    padding-top: 20px;
+}
