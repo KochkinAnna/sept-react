@@ -1,7 +1,10 @@
+import React from "react";
+import {RickandmortyAll} from "./Components/RickandmortyAll/RickandmortyAll";
+
 const App = () => {
     return (
         <div>
-            App
+           <RickandmortyAll/>
         </div>
     );
 };
