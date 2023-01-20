@@ -12,7 +12,7 @@ const SpaceX = () => {
         <div>
             <h1>SpaceX launch :</h1>
             <div className={'wrap'}>
-            {launch.filter(item => item.launch_year !=='2020').map(item => {
+            {launch.sort (item => item.launch_year-item.launch_year).filter(item => item.launch_year !=='2020').map(item => {
                 return (
 
                         <div className={'launch'} key={item.flight_number}>
