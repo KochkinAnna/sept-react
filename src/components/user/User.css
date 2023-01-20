@@ -1,0 +1,13 @@
+.singleUser {
+    width:265px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: yellow;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button {
+    margin-top: 10px;
+}

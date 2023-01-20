@@ -1,0 +1,30 @@
+.usersandselected {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.usersColumn {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.selectedUserColumn {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.margin {
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+}
