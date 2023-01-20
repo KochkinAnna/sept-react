@@ -1,7 +1,7 @@
-import './SpaceX.css'
 import {useEffect, useState} from "react";
 import axios from "axios";
 
+import './SpaceX.css'
 
 const SpaceX = () => {
     const [launch, setLaunch]= useState([])
@@ -14,7 +14,6 @@ const SpaceX = () => {
             <div className={'wrap'}>
             {launch.sort (item => item.launch_year-item.launch_year).filter(item => item.launch_year !=='2020').map(item => {
                 return (
-
                         <div className={'launch'} key={item.flight_number}>
                         <img src={item.links.mission_patch_small} alt={item.mission_name}/>
                         <div className={'text'}>

@@ -1,7 +1,7 @@
 import {Users} from "./components/users/Users";
+import {SpaceX} from "./components/spaceX/SpaceX";
 
 import './App.css'
-import {SpaceX} from "./components/spaceX/SpaceX";
 
 const App = () => {
     return (
