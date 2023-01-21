@@ -1,5 +1,4 @@
-import {Users} from "./components/users/Users";
-import {SpaceX} from "./components/spaceX/SpaceX";
+import {Users, SpaceX} from "./components";
 
 import './App.css'
 
