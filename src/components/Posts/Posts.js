@@ -4,13 +4,13 @@ import {Post} from "../Post/Post";
 
 import {postService} from "../../api";
 
-const Posts = ({userID}) => {
+const Posts = ({userId}) => {
     const [posts,setPosts] = useState ([]);
 
     useEffect(() => {
-            postService.getByUserID(userID).then(({data}) => setPosts([...data]))
+            postService.getByUserID(userId).then(({data}) => setPosts([...data]))
         },
-        [userID])
+        [userId])
 
     return (
         <div>

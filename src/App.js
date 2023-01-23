@@ -3,11 +3,11 @@ import {useState} from "react";
 import {Posts, Users} from "./components";
 
 const App = () => {
-    const [userID, setUserID] = useState(null);
+    const [userId, setUserId] = useState(null);
     return (
         <div>
-            <Users setUserID={setUserID}/>
-            {userID && <Posts userID={userID}/>}
+            <Users setUserId={setUserId}/>
+            {userId && <Posts userID={userId}/>}
         </div>
     );
 };

@@ -1,7 +1,7 @@
 import {axiosService} from "./axiosService";
 
 const postService ={
-    getByUserID:(userID)=>axiosService.get('/posts', {params: {userID:userID}})
+    getByUserID:(userId)=>axiosService.get('/posts', {params: {userId}})
 }
 export {
     postService
