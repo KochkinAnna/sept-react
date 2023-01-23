@@ -19,7 +19,7 @@ const User = ({user, setUserId}) => {
             <div>e-mail: {email}</div>
             {!posts.length&& <button onClick={() => getPosts()}>Posts</button>}
             {!!posts.length && <button onClick={() => setPosts([])}>Hide posts</button>}
-            <div>{posts.map(post => JSON.stringify(post))}</div>
+            <div>{posts.map(post=><Post key = {post.id} post={post}/>)}</div>
 
 
         </div>
