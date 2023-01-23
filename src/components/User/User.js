@@ -1,6 +1,7 @@
 import {useState} from "react";
+
 import {postService} from "../../api";
-import {Posts} from "../Posts/Posts";
+
 import {Post} from "../Post/Post";
 
 const User = ({user, setUserId}) => {
