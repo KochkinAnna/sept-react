@@ -19,7 +19,7 @@ const App = () => {
             <hr/>
             <h2>Check it out ... o_O </h2>
 
-            <Cars cars={cars} setUpdateCar={setUpdateCar}/>
+            <Cars cars={cars} setUpdateCar={setUpdateCar} setCars={setCars}/>
         </div>
     );
 };
