@@ -1,11 +1,13 @@
 const baseURL = 'https://jsonplaceholder.typicode.com';
 
 const urls = {
-    posts:'/posts',
-    todos:'/todos',
-    albums:'/albums'
+    albums: '/albums',
+    comments: '/comments',
+    posts: '/posts',
+    todos: '/todos',
+    users: '/users'
 }
 
 export {
-    baseURL,urls
+    baseURL, urls
 }

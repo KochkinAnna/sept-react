@@ -5,8 +5,8 @@ import {PostsDetails} from "../../components";
 import css from './PostDetailPage.module.css'
 
 const PostDetailPage = () => {
-const {postId}=useParams();
-const {state} = useLocation();
+    const {postId} = useParams();
+    const {state} = useLocation();
 
 
     return (

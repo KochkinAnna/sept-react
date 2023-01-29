@@ -9,7 +9,7 @@ const Post = ({post}) => {
             <div>id:{id}</div>
             <div>userId:{userId}</div>
             <div>title:{title}</div>
-            <button onClick={()=>navigate(id.toString(),{state:post})}>Details</button>
+            <button onClick={() => navigate(id.toString(), {state: post})}>Details</button>
             {/*<Link to={id.toString()} state={{...post}}>Post Details</Link>*/}
             <hr/>
         </div>

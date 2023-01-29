@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 
 import {postService} from "../../services";
 
-const PostsDetails = ({postId, state}) => {
+const PostId = ({postId, state}) => {
     const [post, setPost] = useState(null);
 
     useEffect(() => {
@@ -29,4 +29,4 @@ const PostsDetails = ({postId, state}) => {
     );
 };
 
-export {PostsDetails};
+export {PostId};

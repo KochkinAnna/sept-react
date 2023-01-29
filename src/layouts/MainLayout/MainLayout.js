@@ -7,8 +7,8 @@ const MainLayout = () => {
     return (
         <div>
             <Header/>
-            <button onClick={() =>navigate(-1)}>prev page</button>
-            <button onClick={() =>navigate(1)}>next page</button>
+            <button onClick={() => navigate(-1)}>prev page</button>
+            <button onClick={() => navigate(1)}>next page</button>
             <Outlet/>
         </div>
     );

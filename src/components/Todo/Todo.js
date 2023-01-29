@@ -1,5 +1,5 @@
 const Todo = ({todo}) => {
-    const {id, userId, title,completed} = todo;
+    const {id, userId, title, completed} = todo;
 
     return (
         <div>

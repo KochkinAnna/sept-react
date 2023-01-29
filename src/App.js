@@ -1,8 +1,19 @@
 import {Route, Routes} from "react-router-dom";
 
-import {AboutPage, AlbumsPage, HomePage, NotFoundPage, PostDetailPage, PostsPage, TodosPage, UsersPage} from "./pages";
-
 import {MainLayout} from "./layouts";
+
+import {
+    AboutPage,
+    AlbumsPage,
+    CommentsPage,
+    HomePage,
+    NotFoundPage,
+    PostDetailPage, PostIdPage,
+    PostsPage,
+    TodosPage,
+    UsersPage
+} from "./pages";
+
 
 const App = () => {
     return (
@@ -14,6 +25,9 @@ const App = () => {
                     <Route path={'users'} element={<UsersPage/>}/>
                     <Route path={'posts'} element={<PostsPage/>}>
                         <Route path={':postId'} element={<PostDetailPage/>}/>
+                    </Route>
+                    <Route path={'comments'} element={<CommentsPage/>}>
+                        <Route path={':postId'} element={<PostIdPage/>}/>
                     </Route>
                     <Route path={'todos'} element={<TodosPage/>}/>
                     <Route path={'albums'} element={<AlbumsPage/>}/>
