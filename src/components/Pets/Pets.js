@@ -10,7 +10,7 @@ const Pets = () => {
     const catInput = useRef();
     const dogInput = useRef();
 
-    const [state, dispatch] = useReducer(reducer, {cats: [], dogs: []}, (data) => data);
+
 
     const saveCat = () => {
         dispatch({type: 'ADD_CAT', payload: catInput.current.value})
@@ -43,6 +43,8 @@ const Pets = () => {
                 return {...state}
         }
     }
+
+    const [state, dispatch] = useReducer(reducer, {cats: [], dogs: []}, (data) => data);
 
     return (
         <div className={css.Pets}>
