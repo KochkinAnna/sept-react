@@ -1,13 +1,13 @@
-import {Outlet} from "react-router-dom";
 
-import {PetsOwners} from "../../components";
+import {PetsOwnerForm, PetsOwners} from "../../components";
 
 
 const PetsOwnersPage = () => {
     return (
         <div>
+            <PetsOwnerForm/>
+            <hr/>
             <PetsOwners/>
-            <Outlet/>
         </div>
     );
 };
