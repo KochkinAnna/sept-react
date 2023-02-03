@@ -5,7 +5,7 @@ const Dog = ({dog,dispatch}) => {
             <div>id: {id}</div>
             <div>name: {name}</div>
             <button
-                onClick={() => dispatch({type: 'DELETE_DOG', payload: id})}>>
+                onClick={() => dispatch({type: 'DELETE_DOG', payload: id})}>
                 Feed the dog
             </button>
         </div>
