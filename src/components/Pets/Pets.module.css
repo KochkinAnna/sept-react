@@ -1,0 +1,10 @@
+.Pets {
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+button {
+    background: #d4f506;
+}
