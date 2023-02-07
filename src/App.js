@@ -1,7 +1,11 @@
+import {Header, Users} from "./components";
+
 const App = () => {
     return (
         <div>
-            App
+            <Header/>
+            <hr/>
+            <Users/>
         </div>
     );
 };
